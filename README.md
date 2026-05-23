@@ -47,3 +47,7 @@ Make sure the model is available:
 ```bash
 ollama pull llama3.1:8b
 ```
+
+## License
+
+This project is licensed under the Apache License 2.0. See [LICENSE](LICENSE).
