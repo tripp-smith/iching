@@ -1,0 +1,35 @@
+# Local secrets and environment
+.env
+.env.*
+!.env.example
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Logs and runtime output
+*.log
+logs/
+*.pid
+*.sock
+
+# Local databases and data volumes
+*.db
+*.sqlite
+*.sqlite3
+data/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Generated verification artifacts
+verification-*.png
+screenshots/
+playwright-report/
+test-results/
